@@ -1,6 +1,6 @@
 {
   "name": "reactive-form-react",
-  "version": "1.0.33",
+  "version": "1.0.1",
   "description": "Angular like Reactive Forms in React",
   "keywords": [
     "forms",
@@ -32,13 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bietkul/react-reactive-form"
+    "url": "git+https://github.com/vforv/react-reactive-form"
   },
-  "author": "Kuldeep Saxena <kul.anjuma@gmail.com>",
+  "author": "Vladimir Djukic",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bietkul/react-reactive-form/issues"
-  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -83,10 +80,11 @@
     ]
   },
   "typings": "dist/index.d.ts",
-  "homepage": "https://github.com/bietkul/react-reactive-form#readme",
+  "homepage": "https://github.com/vforv/react-reactive-form#readme",
   "dependencies": {
-    "opencollective-postinstall": "^2.0.2",
-    "opencollective": "^1.0.3"
+    "@types/react": "^17.0.17",
+    "opencollective": "^1.0.3",
+    "opencollective-postinstall": "^2.0.2"
   },
   "collective": {
     "type": "opencollective",

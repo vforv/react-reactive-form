@@ -4,9 +4,9 @@ import { FormControl, FormArray, FormGroup } from './model'
 import configureControl from './configureControl'
 import Field from './Field'
 export default class FieldControl extends React.Component {
-  constructor(props, context) {
-    super(props, context)
-    this.control = configureControl(props, context, 'FormControl')
+  constructor(props) {
+    super(props)
+    this.control = configureControl(props, this.props.context, 'FormControl')
   }
   componentDidUpdate(prevProps) {
     if (this.props.name !== prevProps.name) {
